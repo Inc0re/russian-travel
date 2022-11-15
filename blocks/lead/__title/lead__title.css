@@ -1,2 +1,8 @@
-.lead__tile {
+.lead__title {
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  margin: 56px auto 0;
+  text-align: center;
 }
