@@ -6,3 +6,17 @@
   line-height: 1.06;
   max-width: 560px;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: calc(32px + (40 + 40 * 0.7) * ((100vw - 425px) / 768));
+    /* font-size: calc(32px + 40 * (100vw / 768)); */
+    /* font-size: 32px; */
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font-size: 32px;
+  }
+}
