@@ -1,7 +1,21 @@
+/* .cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+*/
 .cover {
   max-width: 1184px;
   margin: 0 auto;
   position: relative;
+  display: grid;
+  grid-template-rows: 10fr;
+  grid-template-columns: 16fr;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vw / 1.6);
   z-index: 1;
 }
 
