@@ -15,10 +15,7 @@
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vw / 1.6);
+  background-position: center;
+  min-height: calc(min(100vw, 1184px) / 1.6);
   z-index: 1;
-}
-
-.cover:hover .cover__overlay{
-  opacity: 0.8;
 }
