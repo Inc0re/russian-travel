@@ -11,12 +11,12 @@
 @media screen and (max-width: 708px) {
   .footer__link {
     margin-bottom: 20px;
+    font-size: 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .footer__link {
-    font-size: 24px;
     margin-bottom: 32px;
     line-height: 1;
   }
