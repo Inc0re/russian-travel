@@ -11,14 +11,14 @@
   .lead__subtitle {
     /* font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 425px) / 768)); */
     /* width: 80%; */
-    font-size: 30px;
-    max-width: 90%;
+    max-width: 640px;
   }
 }
 
 @media screen and (max-width: 560px) {
   .lead__subtitle {
     font-size: 22px;
+    width: 90%;
   }
 }
 
